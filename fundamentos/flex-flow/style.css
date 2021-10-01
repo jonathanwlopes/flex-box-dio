@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.default {
+  flex-flow: row nowrap;
+}
+
+.wrap-reverse {
+  flex-flow: row wrap-reverse;
+}
+
+.row-wrap-reverse{
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.flex-container {
+  display: flex;
+  border: 1px solid #000;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.item {
+  background: #8a2be2;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  min-width: 100px;
+}

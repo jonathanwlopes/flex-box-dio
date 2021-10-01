@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  list-style: none;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item{
+  background: #3333ec;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  margin: 5px;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.row-reverse li{
+  background: #f31c1c;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.column > li {
+  background: #f0a51b;
+}
+
+.column-reverse{
+  flex-direction: column-reverse;
+}
