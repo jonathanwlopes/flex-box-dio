@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  max-width: 350px;
+  border: 1px solid #000;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.item {
+  background: #ff7f50;
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  flex: 1;
+}
+
+.o1 {
+  order: 1;
+}
+
+.o2 {
+  order: 2;
+}
+
+.o3 {
+  order: 3;
+}
+
+.o4 {
+  order: 4;
+}
+
+.column {
+  flex-direction: column;
+}
